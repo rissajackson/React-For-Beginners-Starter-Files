@@ -2,8 +2,10 @@ import React from "react";
 import { getFunName } from "../helpers";
 
 class StorePicker extends React.Component {
-    goToStore() {
-        alert("Heyyy!")
+    goToStore(event) {
+        // 1. Stop the form from submitting
+        // 2. Get the text from that input
+        // 3. Change the page to /store/whatever-they-entered
     }
     render() {
         return (
